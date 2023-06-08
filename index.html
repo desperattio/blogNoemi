@@ -67,7 +67,7 @@
                         <li class="tag-item"><a href="#0" class="tag-link">Travel</a></li>
                     </ul>
                     <a href="#0" class="trend-text">
-                        <h3 class="trend-article-header">СОБИРАЕМСЯ В ПЕРВЫЙ ПОХОД В ГОРЫ</h3>
+                        <h3 class="trend-article-header">Собираемся в первый поход в горы</h3>
                     </a>
                 </div>
             </article>
@@ -79,7 +79,7 @@
                         <li class="tag-item"><a href="#0" class="tag-link">Health</a></li>
                     </ul>
                     <a href="#0" class="trend-text">
-                        <h3 class="trend-article-header">Сейчас в тренде: сКОЛЬКО ВИТАМИНА c В ЛИМОНАХ?</h3>
+                        <h3 class="trend-article-header">Сейчас в тренде: сколько витамина c в лимонах?</h3>
                     </a>
                 </div>
             </article>
@@ -247,14 +247,46 @@
             <section class="tags">
                 <h2 class="section-header">Теги</h2>
                 <ul class="tag-list">
-                    <li class="tag-list-item"><a href="#0" class="tag-list-link">Fashion</a></li>
-                    <li class="tag-list-item"><a href="#0" class="tag-list-link">Music</a></li>
-                    <li class="tag-list-item"><a href="#0" class="tag-list-link">Lifestyle</a></li>
-                    <li class="tag-list-item"><a href="#0" class="tag-list-link">Art</a></li>
-                    <li class="tag-list-item"><a href="#0" class="tag-list-link">Interior</a></li>
-                    <li class="tag-list-item"><a href="#0" class="tag-list-link">travel</a></li>
-                    <li class="tag-list-item"><a href="#0" class="tag-list-link">Food</a></li>
-                    <li class="tag-list-item"><a href="#0" class="tag-list-link">Health</a></li>
+                    <li class="tag-list-item">
+                        <a href="#0" class="tag-list-link">
+                            <span class="tag-item-text">Fashion</span>
+                        </a>
+                    </li>
+                    <li class="tag-list-item">
+                        <a href="#0" class="tag-list-link">
+                            <span class="tag-item-text">Music</span>
+                        </a>
+                    </li>
+                    <li class="tag-list-item">
+                        <a href="#0" class="tag-list-link">
+                            <span class="tag-item-text">lifestyle</span>
+                        </a>
+                    </li>
+                    <li class="tag-list-item">
+                        <a href="#0" class="tag-list-link">
+                            <span class="tag-item-text">Art</span>
+                        </a>
+                    </li>
+                    <li class="tag-list-item">
+                        <a href="#0" class="tag-list-link">
+                            <span class="tag-item-text">Interior</span>
+                        </a>
+                    </li>
+                    <li class="tag-list-item">
+                        <a href="#0" class="tag-list-link">
+                            <span class="tag-item-text">travel</span>
+                        </a>
+                    </li>
+                    <li class="tag-list-item">
+                        <a href="#0" class="tag-list-link">
+                            <span class="tag-item-text">Food</span>
+                        </a>
+                    </li>
+                    <li class="tag-list-item">
+                        <a href="#0" class="tag-list-link">
+                            <span class="tag-item-text">Health</span>
+                        </a>
+                    </li>
                 </ul>
             </section>
             <section class="themes">
@@ -293,10 +325,15 @@
         <h2 class="product-header">Наши изделия</h2>
         <div class="products">
             <article class="product-content">
-                <img src="./images/shop-item-desk1.jpg" alt="a pillow with a print" class="product-img">
+                <picture>
+                    <source media="(max-width: 640px)" srcset="./images/shop-item-mobile1.jpg">
+                    <source media="(min-width: 641px) and (max-width: 1200px)" srcset="./images/shop-item-tablet1.jpg">
+                    <source media="(min-width: 1201px)" srcset="./images/shop-item-desk1.jpg">
+                    <img class="product__image image" src="./images/shop-item-desk1.jpg" alt="a pillow with a print">
+                </picture>
                 <div class="shop-item-desc">
                     <h2 class="shop-item-header">Подушки на диван</h2>
-                    <span class="product-text">Набор из двух подушек с модными принтами. Видео о создании <a href="#" class="shop-item-link">здесь.</a></span>
+                    <p class="product-text">Набор из двух подушек с модными принтами. Видео о создании <a href="#" class="shop-item-link">здесь.</a></p>
                     <div class="shop-item-footer">
                         <div class="prices">
                             <span class="shop-item-oldPrice">1000 Р</span>
@@ -308,10 +345,15 @@
             </article>
 
             <article class="product-content">
-                <img src="./images/shop-item-desk2.jpg" alt="a bunny doll" class="product-img">
+                <picture>
+                    <source media="(max-width: 640px)" srcset="./images/shop-item-mobile2.jpg">
+                    <source media="(min-width: 641px) and (max-width: 1200px)" srcset="./images/shop-item-tablet2.jpg">
+                    <source media="(min-width: 1201px)" srcset="./images/shop-item-desk2.jpg">
+                    <img class="product__image image" src="./images/shop-item-desk2.jpg" alt="a bunny doll">
+                </picture>
                 <div class="shop-item-desc">
                     <h2 class="shop-item-header">Кукла «Зайчик»</h2>
-                    <span class="product-text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a href="#" class="shop-item-link">весенняя серия постов</a> в блоге и несколько подкастов.</span>
+                    <p class="product-text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a href="#" class="shop-item-link">весенняя серия постов</a> в блоге и несколько подкастов.</p>
                     <div class="shop-item-footer">
                         <div class="prices">
                             <span class="shop-item-price">3500 Р</span>
@@ -322,10 +364,15 @@
             </article>
 
             <article class="product-content">
-                <img src="./images/shop-item-desk3.jpg" alt="a vase with flowers near a frame" class="product-img">
+                <picture>
+                    <source media="(max-width: 640px)" srcset="./images/shop-item-mobile3.jpg">
+                    <source media="(min-width: 641px) and (max-width: 1200px)" srcset="./images/shop-item-tablet3.jpg">
+                    <source media="(min-width: 1201px)" srcset="./images/shop-item-desk3.jpg">
+                    <img class="product__image image" src="./images/shop-item-desk3.jpg" alt="a vase with flowers near a frame">
+                </picture>
                 <div class="shop-item-desc">
                     <h2 class="shop-item-header">Шестиугольная рамка</h2>
-                    <span class="product-text">Необычная рамка для украшения дома из видео <a href="#" class="shop-item-link">«Как сделать рамку из подручных средств за 30 минут»</a></span>
+                    <p class="product-text">Необычная рамка для украшения дома из видео <a href="#" class="shop-item-link">«Как сделать рамку из подручных средств за 30 минут»</a></p>
                     <div class="shop-item-footer">
                         <div class="prices">
                             <span class="shop-item-oldPrice">500 Р</span>
